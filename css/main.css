@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  width: 100%;
+}
+header nav {
+  max-width: 100%;
+  display: flex;
+  background-color: black;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav i {
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+header nav img {
+  width: 200px;
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+}
+main .ilk_hisse {
+  width: 100%;
+  background-image: url("/assect/img/new-coca-cola-slogan-section-homepage-desktop-1600.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+main .sekiller .img1 {
+  overflow: hidden !important;
+  width: 100%;
+  display: flex;
+}
+main .sekiller .img1 .big_img {
+  overflow: hidden !important;
+  width: 55%;
+}
+main .sekiller .img1 .img1_ic_hisse {
+  overflow: hidden !important;
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+}
+main .sekiller .img2 {
+  overflow: hidden !important;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+main .sekiller .img2 .a3lu_img {
+  overflow: hidden !important;
+  width: 33.33%;
+}
+main .sekiller img:hover {
+  transform: scale(1.4);
+  transition: 5s;
+}
+main .melumat {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .melumat .tamhisse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  flex-direction: column;
+}
+main .melumat .tamhisse .axtaris {
+  display: flex;
+  flex-direction: row;
+}
+main .melumat .tamhisse .axtaris p {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+main .melumat img {
+  cursor: pointer;
+}
+main footer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main footer .LOGO_DIV img {
+  width: 300px;
+  margin-top: 20px;
+}
+main footer button {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+main footer p {
+  color: white;
+}
+main footer .son_hisse {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+main footer .son_hisse .son_noqte {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+main footer .son_hisse .son_noqte ul {
+  display: flex;
+  flex-direction: row;
+}
+main footer .son_hisse .son_noqte ul a {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

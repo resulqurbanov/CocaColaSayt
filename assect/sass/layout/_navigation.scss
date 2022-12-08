@@ -1,0 +1,22 @@
+header {
+  width: 100%;
+
+  nav {
+    max-width: 100%;
+    display: flex;
+    background-color: black;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    i {
+      color: white;
+      margin-left: 20px;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+    img {
+      width: 200px;
+      cursor: pointer;
+    }
+  }
+}
